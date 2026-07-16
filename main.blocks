@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_gesture_event" id="AntL7|rN;DN3x+~T11K8" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_number" id=".?j+0qZ-p[_p},]k~sx)"><value name="number"><shadow type="math_number" id="!/Hg~2J(S+Zie8C~_Je@"><field name="NUM">9</field></shadow><block type="device_random" id="/x{_xQw#E~XtHXE;=tcL"><value name="min"><shadow type="math_number" id="=%}Df}=CYn8ktOiGCG^C"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="WP/v;wVTVu1FfIb_Qh8q"><field name="NUM">6</field></shadow></value></block></value></block></statement></block><block type="device_button_event" id="2|NcL^gv/ggC)IQa(s:X" x="324" y="141"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="q%?.=B,7,f?h6nQc;+=o"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . # . . 
+        . # # # . 
+        . # . # .
+        `</field></block></statement></block><block type="device_button_event" id="o_v/{2[5DTY4jF@9H|Es" x="630" y="165"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="controls_repeat_ext" id="6pKv]3M1aEJON?_pl.eU"><value name="TIMES"><shadow type="math_whole_number" id="%]}cFF0-k[([WYla8!M["><field name="NUM">4</field></shadow></value><statement name="DO"><block type="basic_show_icon" id="TDm+CFE@)@jqj-t1M7=6"><field name="i">IconNames.Heart</field><next><block type="basic_show_icon" id="Nqtx2r{6E0=KeUG.g)6="><field name="i">IconNames.SmallHeart</field><next><block type="basic_show_icon" id="T0d+G.hX`~,]bgGC.J]A"><field name="i">IconNames.Heart</field><next><block type="basic_show_icon" id="BkkF_Zg-7nt*5]pqt9yO"><field name="i">IconNames.Heart</field></block></next></block></next></block></next></block></statement></block></statement></block><block type="device_button_event" id="SqmeMg|c:WdBLBqwyz$T" x="31" y="246"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="basic_show_icon" id="-VH,$0h+-i7rP~cL88@Z"><field name="i">IconNames.Diamond</field><next><block type="device_show_leds" id="I0@^inuwe6oi_9NtECrC"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . # . . 
+        . . . . . 
+        # # # # #
+        `</field></block></next></block></statement></block></xml>
